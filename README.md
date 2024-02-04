@@ -21,8 +21,12 @@ kubectl apply -f pod.yaml
    
 kubectl get pod
 Результат = 2 pod с разными именами.
+
 6.Посмотрим описание, для чего выполним команду:
+
 kubectl describe pod my-pod
+
 7. Чистим за собой кластер
+
 kubectl delete pod --all
 
